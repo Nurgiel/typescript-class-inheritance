@@ -14,8 +14,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 var _amount;
 class MoneyExchanger {
     constructor(theAmount) {
-        this.theAmount = theAmount;
-        _amount.set(this, void 0); // ECMAScript Private Fields can’t be accessed or even detected outside of the containing class (hard privacy)
+        _amount.set(this, void 0);
         this.rate = 6.16;
         __classPrivateFieldSet(this, _amount, theAmount);
     }
